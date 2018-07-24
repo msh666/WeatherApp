@@ -14,8 +14,6 @@
 		FB6EC8DD201389040060F668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6EC8DB201389040060F668 /* Main.storyboard */; };
 		FB6EC8DF201389040060F668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6EC8DE201389040060F668 /* Assets.xcassets */; };
 		FB6EC8E2201389050060F668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6EC8E0201389050060F668 /* LaunchScreen.storyboard */; };
-		FB6EC8ED201389050060F668 /* rainyshinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EC8EC201389050060F668 /* rainyshinyTests.swift */; };
-		FB6EC8F8201389050060F668 /* rainyshinyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6EC8F7201389050060F668 /* rainyshinyUITests.swift */; };
 		FBB5C2C620585C020071AAD7 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5C2C520585C020071AAD7 /* WeatherCell.swift */; };
 		FBF7F7C82039A6D70014AB33 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF7F7C72039A6D70014AB33 /* Forecast.swift */; };
 		FBFD69FB2014FD0E001023A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD69FA2014FD0E001023A6 /* Constants.swift */; };
@@ -52,11 +50,7 @@
 		FB6EC8E1201389050060F668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB6EC8E3201389050060F668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6EC8E8201389050060F668 /* rainyshinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainyshinyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6EC8EC201389050060F668 /* rainyshinyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainyshinyTests.swift; sourceTree = "<group>"; };
-		FB6EC8EE201389050060F668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6EC8F3201389050060F668 /* rainyshinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rainyshinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6EC8F7201389050060F668 /* rainyshinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainyshinyUITests.swift; sourceTree = "<group>"; };
-		FB6EC8F9201389050060F668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBB5C2C520585C020071AAD7 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		FBF7F7C72039A6D70014AB33 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		FBFD69FA2014FD0E001023A6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -110,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				FB6EC8D6201389040060F668 /* rainyshiny */,
-				FB6EC8EB201389050060F668 /* rainyshinyTests */,
-				FB6EC8F6201389050060F668 /* rainyshinyUITests */,
 				FB6EC8D5201389040060F668 /* Products */,
 				A55409A8F0C9C6AD395C782F /* Pods */,
 				E0327D5514C226BAA9C163D0 /* Frameworks */,
@@ -144,24 +136,6 @@
 				FB4C430921072E3A00EA9A5E /* Location.swift */,
 			);
 			path = rainyshiny;
-			sourceTree = "<group>";
-		};
-		FB6EC8EB201389050060F668 /* rainyshinyTests */ = {
-			isa = PBXGroup;
-			children = (
-				FB6EC8EC201389050060F668 /* rainyshinyTests.swift */,
-				FB6EC8EE201389050060F668 /* Info.plist */,
-			);
-			path = rainyshinyTests;
-			sourceTree = "<group>";
-		};
-		FB6EC8F6201389050060F668 /* rainyshinyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FB6EC8F7201389050060F668 /* rainyshinyUITests.swift */,
-				FB6EC8F9201389050060F668 /* Info.plist */,
-			);
-			path = rainyshinyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6EC8ED201389050060F668 /* rainyshinyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6EC8F8201389050060F668 /* rainyshinyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
